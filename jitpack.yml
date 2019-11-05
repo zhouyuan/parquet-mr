@@ -1,0 +1,5 @@
+before_install:
+   - bash ./dev/travis-before_install.sh
+install:
+   - echo "Running a custom install command"
+   - mvn clean install -DskipTests
