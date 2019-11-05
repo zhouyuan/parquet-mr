@@ -1,0 +1,5 @@
+before_install:
+   - ./thrift_setup.sh
+install:
+   - echo "Running a custom install command"
+   - mvn clean install -DskipTests
